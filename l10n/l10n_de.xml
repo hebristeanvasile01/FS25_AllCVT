@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_ALLCVT_TOGGLE" text="CVT an / aus"/>
+        <text name="cvt_on" text="%s: stufenlos (CVT)"/>
+        <text name="cvt_off" text="%s: originales Getriebe"/>
+        <text name="cvt_stopFirst" text="Halte an, um das Getriebe umzuschalten"/>
+        <text name="cvt_noGearbox" text="Dieses Fahrzeug hat kein umschaltbares Getriebe"/>
+    </texts>
+</l10n>

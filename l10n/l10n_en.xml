@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_ALLCVT_TOGGLE" text="CVT on / off"/>
+        <text name="cvt_on" text="%s: CVT automatic"/>
+        <text name="cvt_off" text="%s: original gearbox"/>
+        <text name="cvt_stopFirst" text="Stop the vehicle to switch the transmission"/>
+        <text name="cvt_noGearbox" text="This vehicle has no gearbox to switch"/>
+    </texts>
+</l10n>
