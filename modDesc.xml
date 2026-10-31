@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="115">
+    <author>FS Modding</author>
+    <version>1.1.0.0</version>
+    <title>
+        <en>All CVT</en>
+        <de>Alles Stufenlos</de>
+        <fr>Tout en CVT</fr>
+    </title>
+    <description>
+        <en><![CDATA[No more gears: every vehicle drives with a CVT automatic transmission.
+
+- All tractors, trucks, cars and machines with a manual or powershift gearbox get a stepless CVT
+- Alt + G in the vehicle: CVT on or off for this vehicle (stand still). Manual on your Fendt, CVT on your John Deere: your choice, kept in the savegame
+- The speed range of the vehicle stays the same, from the lowest to the highest gear
+- Smooth driving, no shifting, no ranges
+- Vehicles that already have a CVT are not changed
+- Works for base game, DLC and mod vehicles
+
+Console:
+- cvtInfo: transmission of your vehicle
+- cvtDefault on/off: CVT on or off for vehicles you never switched
+
+Multiplayer supported.]]></en>
+        <de><![CDATA[Keine Gänge mehr: jedes Fahrzeug fährt mit stufenlosem Automatikgetriebe.
+
+- Alle Traktoren, LKW, Autos und Maschinen mit Schalt- oder Lastschaltgetriebe bekommen ein stufenloses CVT
+- Alt + G im Fahrzeug: CVT an oder aus für dieses Fahrzeug (im Stand). Schaltgetriebe im Fendt, CVT im John Deere: du entscheidest, wird im Spielstand gespeichert
+- Der Geschwindigkeitsbereich bleibt gleich, vom kleinsten bis zum größten Gang
+- Sanftes Fahren, kein Schalten, keine Gruppen
+- Fahrzeuge, die schon stufenlos sind, bleiben unverändert
+- Funktioniert für Fahrzeuge aus dem Grundspiel, DLC und Mods
+
+Konsole:
+- cvtInfo: Getriebe deines Fahrzeugs
+- cvtDefault on/off: CVT an oder aus für Fahrzeuge, die du nie umgeschaltet hast
+
+Mehrspieler unterstützt.]]></de>
+        <fr><![CDATA[Plus de rapports : chaque véhicule roule avec une transmission automatique à variation continue.
+
+- Tous les tracteurs, camions, voitures et machines avec une boîte manuelle ou powershift reçoivent une transmission CVT
+- Alt + G dans le véhicule : CVT activée ou désactivée pour ce véhicule (à l'arrêt). Boîte manuelle sur votre Fendt, CVT sur votre John Deere : à vous de choisir, enregistré dans la partie
+- La plage de vitesse du véhicule reste la même, du plus petit au plus grand rapport
+- Conduite souple, pas de passage de rapports, pas de gammes
+- Les véhicules déjà en CVT ne sont pas modifiés
+- Fonctionne pour les véhicules du jeu de base, des DLC et des mods
+
+Console :
+- cvtInfo : transmission de votre véhicule
+- cvtDefault on/off : CVT activée ou désactivée pour les véhicules jamais changés
+
+Multijoueur pris en charge.]]></fr>
+    </description>
+    <iconFilename>icon_AllCVT.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n filenamePrefix="l10n/l10n"/>
+    <actions>
+        <action name="ALLCVT_TOGGLE" category="VEHICLE"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="ALLCVT_TOGGLE"><binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_g" axisComponent="+"/></actionBinding>
+    </inputBinding>
+    <extraSourceFiles>
+        <sourceFile filename="allcvt.lua"/>
+    </extraSourceFiles>
+</modDesc>
